@@ -13,7 +13,7 @@ A project app and online ordering system designated for Mr. Luigi Mondragon, in 
 
 ### Incomplete
 - Incomplete activity functionalities
-- No established
+- Incomplete dashboard
 - No backend code (PHP)
 - No website
 - No database
