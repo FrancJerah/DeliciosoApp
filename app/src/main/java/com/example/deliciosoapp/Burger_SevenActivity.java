@@ -7,13 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Burger_OneActivity extends AppCompatActivity {
+public class Burger_SevenActivity extends AppCompatActivity {
     Button cancelButton, buyButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_burger_one);
+        setContentView(R.layout.activity_burger_seven);
 
         cancelButton = findViewById(R.id.cancelButton);
         buyButton = findViewById(R.id.buyButton);
@@ -21,7 +21,7 @@ public class Burger_OneActivity extends AppCompatActivity {
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Burger_OneActivity.this, MainActivity.class);
+                Intent intent = new Intent(Burger_SevenActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -31,7 +31,7 @@ public class Burger_OneActivity extends AppCompatActivity {
         buyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Burger_OneActivity.this, MainActivity.class);
+                Intent intent = new Intent(Burger_SevenActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }

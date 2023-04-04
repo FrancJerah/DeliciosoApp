@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<!--    permission over sdk 23-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+<!--    permission under sdk 23-->
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,8 +20,29 @@
         android:theme="@style/Theme.DeliciosoApp"
         tools:targetApi="31">
         <activity
-            android:name=".Burger_OneActivity"
+            android:name=".Burger_EightActivity"
             android:exported="false" />
+        <activity
+            android:name=".Burger_SevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Burger_SixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Burger_FiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Burger_FourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Burger_ThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Burger_TwoActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Burger_OneActivity"
+            android:exported="false"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true">

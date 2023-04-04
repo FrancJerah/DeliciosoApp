@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
-    tools:context=".Burger_OneActivity">
+    tools:context=".Burger_ThreeActivity">
 
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="400dp"
-
+        android:elevation="100dp"
         android:src="@drawable/burger_king_free_png"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/apple_tea"
-                android:text="BBQ Hamburger"
+                android:text="Double Cheeseburger"
+                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="36sp"
                 android:textStyle="bold"
@@ -55,9 +56,9 @@
                 android:layout_marginTop="32dp"
                 android:fontFamily="@font/apple_tea"
                 android:lineSpacingExtra="10dp"
-                android:text="Savor the irresistible taste of our flame-grilled beef patty topped with rich BBQ sauce - a must-try for burger lovers!"
+                android:text="Satisfy your cravings with double flame-grilled beef patties layered with melted cheese, ketchup and mustard, all nestled between a toasted sesame bun."
                 android:textColor="@color/black"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.54"
