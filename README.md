@@ -19,5 +19,5 @@ A project app and online ordering system designated for Mr. Luigi Mondragon, in 
 - No database
 
 ## Programmers
-# Ceejay Alindog
-# Jerahmeel Francisco
+- Ceejay Alindog
+- Jerahmeel Francisco
